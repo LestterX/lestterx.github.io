@@ -86,8 +86,7 @@ header{
   display: flex;
   flex-direction: row;
   max-width: 1200px;
-  margin: 20px
-   auto;
+  margin: 20px auto;
 }
 .intro{
   flex: 1;
@@ -110,12 +109,6 @@ header{
   text-align: justify;
   font-family: 'Lucinda Console';
 }
-.profile{
-  flex: 0;
-}
-.profile img{
-  height: 475px;
-}
 .main .intro .button{
   display: flex;
   justify-content: center;
@@ -134,4 +127,10 @@ header{
 .main .intro div button:hover{
   cursor: pointer;
   transform: scale(1.05);
+}
+.profile{
+  flex: 0;
+}
+.profile img{
+  height: 475px;
 }

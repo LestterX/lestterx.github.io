@@ -1,0 +1,70 @@
+@media screen and (max-width: 1260px){
+  .main{
+    margin: 20px 30px;
+  }
+}
+@media screen and (max-width: 990px){
+  .main{
+    margin: 50px 30px;
+  }
+  .intro h1{
+    font-size: 3em;
+  }
+  .intro h2{
+    font-size: 1.5em;
+  }
+  .intro .comment{
+    max-width: 370px;
+  }
+  .main .intro div button{
+    margin-top: 50px;
+    font-size: 0.9em;
+    height: 40px;
+    width: 140px;
+  }
+  .profile img{
+    height: 425px;
+  }
+}
+@media screen and (max-width: 840px){
+  .main{
+    margin: 50px 30px;
+  }
+  .intro h1{
+    font-size: 2.2em;
+  }
+  .intro h2{
+    font-size: 1em;
+  }
+  .intro .comment{
+    max-width: 270px;
+  }
+  .profile img{
+    height: 380px;
+  }
+}
+@media screen and (max-width: 670px){
+  .main{
+    flex-direction: column;
+  }
+  .intro{
+    justify-content: center;
+  }
+  .profile{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .intro h1{
+    font-size: 3em;
+  }
+  .intro h2{
+    font-size: 1.5em;
+  }
+  .intro .comment{
+    max-width: 400px;
+  }
+  .profile img{
+    height: 400px;
+  }
+}
