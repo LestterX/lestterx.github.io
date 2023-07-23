@@ -2,6 +2,14 @@
 **/
 /* - Poppins -*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: 'Imp';
+  src: url('../../public/fonts/impact.ttf');
+}
+@font-face {
+  font-family: 'Lucinda Console';
+  src: url();
+}
 
 
 * {
@@ -50,6 +58,9 @@ header{
 }
 .nav-bar .menu ul li:hover{
   transform: scale(1.1);
+}
+.nav-bar .menu ul li a:hover{
+  color: #00B2FF;
   border-bottom: #00B2FF solid 1.5px;
 }
 .social{
@@ -67,4 +78,60 @@ header{
   transform: scale(1.1);
   transition: 0.3s;
   cursor: pointer;
+}
+
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 20px
+   auto;
+}
+.intro{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.intro h1{
+  font-family: 'Imp';
+  font-size: 4em;
+  color: #00B2FF;
+}
+.intro h2{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2em;
+}
+.intro .comment{
+  margin-top: 30px;
+  max-width: 500px;
+  text-align: justify;
+  font-family: 'Lucinda Console';
+}
+.profile{
+  flex: 0;
+}
+.profile img{
+  height: 475px;
+}
+.main .intro .button{
+  display: flex;
+  justify-content: center;
+}
+.main .intro div button{
+  margin-top: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background-color: #00B2FF;
+  border: none;
+  border-radius: 10px;
+}
+.main .intro div button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
 }

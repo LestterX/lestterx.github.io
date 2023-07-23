@@ -1,18 +1,19 @@
-var SocialMediaLinks = /** @class */ (function () {
-    function SocialMediaLinks() {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class SocialMediaLinks {
+    constructor() {
         this.gitHubIMG = document.querySelector('.github');
         this.linkedinIMG = document.querySelector('.linkedin');
         this.instagramIMG = document.querySelector('.instagram');
     }
-    SocialMediaLinks.prototype.getGitHub = function () {
+    getGitHub() {
         return 'https://github.com/LestterX';
-    };
-    SocialMediaLinks.prototype.getLinkedIn = function () {
+    }
+    getLinkedIn() {
         return '#';
-    };
-    SocialMediaLinks.prototype.getInstagram = function () {
+    }
+    getInstagram() {
         return '#';
-    };
-    return SocialMediaLinks;
-}());
-export default SocialMediaLinks;
+    }
+}
+exports.default = SocialMediaLinks;
