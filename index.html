@@ -1,105 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Início</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/social-media.js"></script>
+  <title>Home</title>
 </head>
-
 <body>
   <header>
-    <section style="text-align: center;">
-      <h1>PORTFÓLIO</h1>
-      <h4>Em Planejamento</h4>
-      <span id="att">13/07/2023 - 22h30</span><br><br><br><br>
-      <h6><a style="color: red; font-weight: bolder;" href="https://github.com/LestterX" target="_blank">< Lestter Gabriel || GitHub /></a></h6><br><br><br>
-      <span><a href="outraPagina.html">Outra Pagina</a></span>
+    <section class="top-bar">
+      <section class="nav-bar">
+        <section class="time">
+          <span>22:07:51</span>
+        </section>
+        <nav class="menu">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </nav>
+        <section class="social">
+          <img class="github" src="./public/icons/githubIcon.svg" alt="Github">
+          <img class="linkedin" src="./public/icons/linkedinIcon.svg" alt="LinkedIn">
+          <img class="instagram" src="./public/icons/instagramIcon.svg" alt="Instagram">
+        </section>
+      </section>
     </section>
   </header>
-  <style>
-    * {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-    }
-
-    a:link,
-    a:visited,
-    a:active {
-      color: black;
-      text-decoration: none;
-    }
-
-    header {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* background-image: radial-gradient(#00e1ff 60%, #118b9b 25%); */
-      /* border: 10px solid red; */
-    }
-
-    header section h1 {
-      font-size: 5.6em;
-    }
-
-    header section h4 {
-      font-size: 3em;
-    }
-
-    header section h6 {
-      font-size: 1.05em;
-    }
-
-    header section span {
-      font-size: 1.25em;
-    }
-
-    /* feat: color, underline links // Teste outra página */
-    /** ANIMAÇÕES
-        **/
-    a:hover {
-      color: #0d00c9;
-      text-decoration: underline;
-    }
-    @media screen and (max-width: 620px) {
-      header section h1 {
-        font-size: 4.6em;
-      }
-
-      header section h4 {
-        font-size: 2em;
-      }
-
-      header section h6 {
-        font-size: 1.05em;
-      }
-
-      header section span {
-        font-size: 1.25em;
-      }
-    }
-
-    @media screen and (max-width: 500px) {
-      header section h1 {
-        font-size: 2.8em;
-      }
-
-      header section h4 {
-        font-size: 1.15em;
-      }
-
-      header section h6 {
-        font-size: 0.80em;
-      }
-
-      header section span {
-        font-size: 0.80em;
-      }
-    }
-  </style>
 </body>
-
 </html>

@@ -1,0 +1,70 @@
+/** FONTES (Google Fonts)
+**/
+/* - Poppins -*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(180deg, #3C3C3C 0%, #000 100%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+}
+a:link,
+a:visited,
+a:active,
+a{
+  color: #fff;
+  text-decoration: none;
+}
+header{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+.top-bar{
+  padding: 20px 10%;
+}
+.nav-bar{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.nav-bar .time{
+  flex: 1;
+}
+.nav-bar .menu ul{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .menu ul li{
+  display: inline;
+  text-decoration: none;
+  margin: 0 20px;
+}
+.nav-bar .menu ul li:hover{
+  transform: scale(1.1);
+  border-bottom: #00B2FF solid 1.5px;
+}
+.social{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.social img {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  transition: 0.7s;
+}
+.social img:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
