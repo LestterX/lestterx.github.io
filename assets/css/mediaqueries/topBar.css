@@ -1,11 +1,38 @@
-@media screen and (max-width: 930px){
-  .top-bar{
-    visibility: hidden;
+@media screen and (max-width: 830px){
+  .nav-bar a{
+    color: #000;
+    font-weight: bold;
+  }
+  .nav-bar{
+    color: #000;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin: 0;
+    background: linear-gradient(180deg, #11B8FF 0%, #B8EAFF 84.38%);
+    width: 250px;
+    height: 450px;
+    flex-direction: column;
+  }
+  .nav-bar .time,
+  .nav-bar .menu ul,
+  .social{
+    flex: 0;
   }
   .nav-bar .time{
-    visibility: hidden;
+    margin: 30px;
   }
   .nav-bar .menu ul{
-    visibility: hidden;
+    text-align: right;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .nav-bar .menu ul li{
+    margin: 10px 20px;
+  }
+  .social{
+    margin-top: 60px;
+    justify-content: flex-start;
   }
 }
