@@ -4,6 +4,7 @@
     font-weight: bold;
   }
   .nav-bar{
+    display: none;
     color: #000;
     border-radius: 10px;
     position: absolute;
@@ -34,5 +35,9 @@
   .social{
     margin-top: 60px;
     justify-content: flex-start;
+  }
+
+  header .mobile_bnt{
+    visibility: visible;
   }
 }

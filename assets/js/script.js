@@ -1,8 +1,10 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const social_media_1 = __importDefault(require("./social-media"));
-let sml = new social_media_1.default();
-console.log(sml.getGitHub);
+let bntMobile = document.querySelector('.mobile_bnt')
+let navBar = document.querySelector('.nav-bar')
+
+const display = ['block', 'none']
+let dCount = 0
+bntMobile.addEventListener('click', () => {
+  navBar.style.display = display[dCount];
+  dCount ++;
+  if (dCount > 1) dCount = 0;
+})

@@ -89,6 +89,38 @@ header{
 }
 
 
+header .mobile_bnt{
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  z-index: 200;
+
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+header .mobile_bnt{
+  width: 40px;
+  height: 30px;
+}
+header .mobile_bnt:hover{
+  cursor: pointer;
+}
+header .mobile_bnt:hover > div{
+  background-color: #fff;
+}
+.line1,
+.line2,
+.line3{
+  width: 40px;
+  height: 6px;
+  background-color: #00B2FF;
+}
+.line2{
+  margin: 5px 0;
+}
 
 header .main{
   display: flex;
