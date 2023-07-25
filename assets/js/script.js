@@ -13,8 +13,6 @@ bntMobile.addEventListener('click', changeDisplay)
 
 document.addEventListener('click', e => {
   let target = e.target.classList.value
-  console.log(target);
-  console.log(e.target);
   if(
     (target !== 'social' && dCount === 1) &&
     (target !== 'nav-bar' && dCount === 1) &&
