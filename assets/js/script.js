@@ -1,3 +1,4 @@
+window.location.href = 'https://my-site-two-zeta.vercel.app';
 let bntMobile = document.querySelector('.mobile_bnt')
 let navBar = document.querySelector('.nav-bar')
 
