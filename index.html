@@ -3,61 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/mediaqueries/header.css">
-  <link rel="stylesheet" href="./assets/css/mediaqueries/topBar.css">
-  <title>Home</title>
+  <title>Redirecting...</title>
 </head>
 <body>
-  <header>
-    <section class="top-bar">
-      <section class="nav-bar">
-        <section class="time">
-          <span class="nav-bar-time">22:07:51</span>
-        </section>
-        <nav class="menu">
-          <ul>
-            <li class="nav-bar-li"><a href="">HOME</a></li>
-            <li class="nav-bar-li"><a href="">ABOUT</a></li>
-            <li class="nav-bar-li"><a href="">PORTFOLIO</a></li>
-            <li class="nav-bar-li"><a href="">CONTACT</a></li>
-          </ul>
-        </nav>
-        <section class="social">
-          <a href="https://github.com/LestterX" target="_blank"><img class="github" src="./public/icons/githubIcon.svg" alt="Github"></a>
-          <a href="https://www.linkedin.com/in/lestter-gabriel-93390218a/" target="_blank"><img class="linkedin" src="./public/icons/linkedinIcon.svg" alt="LinkedIn"></a>
-          <a href="https://instagram.com/lesttergabriel?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img class="instagram" src="./public/icons/instagramIcon.svg" alt="Instagram"></a>
-        </section>
-      </section>
-      <section class="mobile_bnt">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </section>
-    </section>
-    <section class="main">
-      <section class="intro">
-        <section class="content">
-          <h1>Web Developer</h1>
-          <h2>Full Stack</h2>
-          <p class="comment">Your <span>professional and eficient web
-            developer</span>. I get from TypeScript and
-            NodeJS the best they can offer to
-            fasten the back-end and front-end
-            development and secure its best use
-            for you and your costomers.</p>
-          <div class="button">
-            <button>LET'S TALK!</button>
-          </div>
-        </section>
-      </section>
-      <section class="profile">
-        <img src="./public/imgs/profile.png" alt="Lestter Gabriel">
-      </section>
-    </section>
-  </header>
-
-  <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/social-media.js"></script>
+  <section>
+    <h1>Este WebSite foi substituido</h1>
+    <h2>Redirecionando...</h1>
+    <p>Você será redirecionado para <a href="https://my-site-two-zeta.vercel.app" target="_blank">https://my-site-two-zeta.vercel.app</a> em até 1 segundo</p>
+  </section>
+  <style>
+    body { overflow: hidden; }
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100vw;
+      height: 90vh;
+    }
+    h2 {
+      font-size: 2rem;
+      animation-name: scaleOutIn;
+      animation-duration: 750ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes scaleOutIn {
+      0% {
+        transform: scale(1.0);
+        color: black;
+      }
+      50% {
+        transform: scale(1.05);
+        color: red;
+      }
+      60% {
+        transform: scale(1.07);
+        color: red;
+      }
+      100% {
+        transform: scale(1.0);
+        color: black;
+      }
+    }
+  </style>
+  <script> //Redirects to new WebSite
+    setTimeout(() => { window.location.replace('https://my-site-two-zeta.vercel.app'); }, 750);
+  </script>
 </body>
 </html>
